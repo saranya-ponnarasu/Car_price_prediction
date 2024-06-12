@@ -1,5 +1,5 @@
 # Car_price_prediction
-This is my first assignment on Linear Regression model to prediction Car prices.
+This is my first assignment on Linear Regression model to predict Car prices.
 
 
 **Problem Statement:**
