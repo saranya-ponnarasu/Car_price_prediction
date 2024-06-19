@@ -1,32 +1,46 @@
-# Car_price_prediction
-This is my first assignment on Linear Regression model to predict Car prices.
+**Problem Statement**
+
+Geely Auto, a Chinese automobile company, plans to enter the US market by setting up local manufacturing to compete with US and European car manufacturers. They hired an automobile consulting company to identify the factors influencing car pricing in the American market, which may differ from the Chinese market.
+
+Preparation : The dataset includes a CarName variable, which contains the car company's name and the car model. Use only the car company name as an independent variable for model building.
+
+Objectives:
+
+Identify significant variables in predicting car prices.
+Assess how well these variables describe car prices.
+
+Business Goals:
+
+Develop a model to predict car prices based on available independent variables. This model will help management understand price variations and inform design and strategy decisions to meet specific price targets. Additionally, it will provide insights into the pricing dynamics of the US market.
+
+Solution:
+
+A Linear Regression Model will be used to identify significant variables affecting car prices and assess their predictive power. The model will help understand price variations and inform strategic decisions for entering the US market.
 
 
-**Problem Statement:**
+What is Linear Regression?
 
-A Chinese automobile company, Geely Auto, aspires to enter the US market by setting up their manufacturing unit there and producing cars locally to give competition to their US and European counterparts. 
+Linear regression is a statistical technique used to model and analyze the relationship between a dependent variable and one or more independent variables. It predicts the value of the dependent variable based on the linear combination of the independent variables. The goal is to find the best-fitting line that minimizes the sum of the squared differences between the observed and predicted values.
 
- 
+Libraries used:
 
-They have contracted an automobile consulting company to understand the factors on which the pricing of cars depends. Specifically, they want to understand the factors affecting car pricing in the American market, as they may differ from the Chinese market. 
+1. Numpy (for data manipulation)
+2. Pandas (for data manipulation)
+3. Matplotlib (for data visualization)
+4. Seaborn (for data visualization)
+5. Statstools (for data modeling)
+6. Scikit-Learn (for data modeling)
 
-The company wants to know the following things:
-
-Which variables are significant in predicting the price of a car?
-How well do those variables describe the price of a car?
-Based on various market surveys, the consulting firm has gathered a large data set of different types of cars across the American market. 
-
- 
-
-Business Goals
-
-You are required to model the price of cars with the available independent variables. The management will use this model to understand exactly how the prices vary with the independent variables. Accordingly, they can change the design of the cars, the business strategy, etc., to meet certain price levels. Further, the model will allow the management to understand the pricing dynamics of a new market.
-
- 
-
-Data Preparation
-
-There is a variable named CarName that comprises two parts: the first word is the name of the car company, and the second is the car model. For example, Chevrolet Impala has ‘Chevrolet’ as the car company name and ‘Impala’ as the car model name. You need to consider only the company name as the independent variable for model building.
-
- 
+Contents:
+Importing the required libraries
+Importing and reading dataset
+Understanding and Visualizing the data
+Exploratory Data Analysis (EDA)
+Preparing the data for modeling
+Training the Model
+Predicting the training data
+Residual Analysis
+Predicting the test data
+Getting the model accuracy
+Sharing Solution to the objectives
 
