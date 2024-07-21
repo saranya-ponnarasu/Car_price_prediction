@@ -30,7 +30,7 @@ Linear regression is a statistical technique used to model and analyze the relat
 2. Pandas (for data manipulation)
 3. Matplotlib (for data visualization)
 4. Seaborn (for data visualization)
-5. Statstools (for data modeling)
+5. Statsmodels (for data modeling)
 6. Scikit-Learn (for data modeling)
 
 ### Contents:
